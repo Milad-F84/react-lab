@@ -20,3 +20,19 @@ a{
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 91.666667%;
+}
+
+.bannerImg{
+  width: 100%;
+}
+
