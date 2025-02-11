@@ -46,3 +46,25 @@ a{
   margin-left: auto;
   margin-right: auto;
 }
+
+.cardDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 40px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.cards{
+  width: 100%;
+}
+
+.cardImg{
+  width: 200px;
+  object-fit: contain;
+  height: 270px;
+}

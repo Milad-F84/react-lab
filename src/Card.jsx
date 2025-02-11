@@ -16,7 +16,7 @@ export default function Card(promps) {
   ))
 
   return (
-    <div>
+    <div className="cardDiv">
       {template}
     </div>
   );
