@@ -68,3 +68,19 @@ a{
   object-fit: contain;
   height: 270px;
 }
+
+.cardDesc{
+  color: #918E9B;
+}
+
+.cardPrice{
+  font-weight: bold;
+}
+
+.status{
+  position: absolute;
+  background-color: white;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 2px;
+}

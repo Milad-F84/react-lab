@@ -15,7 +15,7 @@ const cardData = [
       rating: 5,
       price: 136,
       count: 6,
-      isOnline: false,
+      status: "Sold Out",
       country: "USA",
   },
   {
@@ -24,7 +24,7 @@ const cardData = [
       rating: 5,
       price: 125,
       count: 30,
-      isOnline: true,
+      status: "Online",
       country: "USA",
   },
   {
@@ -33,7 +33,6 @@ const cardData = [
       rating: 4.8,
       price: 50,
       count: 2,
-      isOnline: false,
       country: "USA",
   },
 ];
