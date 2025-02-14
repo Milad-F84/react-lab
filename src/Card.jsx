@@ -7,11 +7,13 @@ export default function Card(promps) {
       <span className="status">{item.status}</span>
       <img className="cardImg" src={item.image} alt="" />
       <div className="cardContainer">
-        <p className="cardDesc">
-        ⭐{item.rating} ({item.count}) .{item.country}
-        </p>
+        <span className="rate">⭐{item.rating}</span>
+        <span className="cardDesc">
+         ({item.count}) .{item.country}
+        </span>
         <h3 className="cardTitle">{item.title}</h3>
-        <p className="cardPrice">From {item.price}$ / person</p>
+        <span className="cardPrice">From {item.price}$</span>
+        <span> / person</span>
       </div>
     </div>
   ))

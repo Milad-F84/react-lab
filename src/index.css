@@ -71,6 +71,7 @@ a{
 
 .cardDesc{
   color: #918E9B;
+  margin-left: 1px;
 }
 
 .cardPrice{
@@ -83,4 +84,10 @@ a{
   margin-top: 5px;
   margin-left: 5px;
   border-radius: 2px;
+  padding: 3px;
+}
+
+.cardTitle{
+  font-weight: normal;
+  margin-top: 6px;
 }
